@@ -247,7 +247,7 @@ export default function Home() {
     };
     const res = await axios(options);
 
-    res.data.map(r => (window.open("https://c382-3-139-66-31.ngrok.io/pdf/" + r.pdf, "minhaJanela")))
+    res.data.map(r => (window.open("https://api.gulosinho.com/pdf/" + r.pdf, "minhaJanela")))
   };
 
   function Lista() {
